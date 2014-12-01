@@ -27,7 +27,6 @@
 /**
  * A SAX Parser
  * @class
- * @name cc.saxParser
  * @extends cc.Class
  */
 cc.SAXParser = cc.Class.extend(/** @lends cc.saxParser# */{
@@ -73,9 +72,8 @@ cc.SAXParser = cc.Class.extend(/** @lends cc.saxParser# */{
 
 /**
  *
- * cc.plistParser is a singleton object for parsing plist files
+ * A plist Parser
  * @class
- * @name cc.plistParser
  * @extends cc.SAXParser
  */
 cc.PlistParser = cc.SAXParser.extend(/** @lends cc.plistParser# */{
